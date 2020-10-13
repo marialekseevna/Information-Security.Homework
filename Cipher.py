@@ -1,8 +1,7 @@
-alf = 'abcdefghijklmnopqrstuvwxyz'
-
 class Cipher:
     # шифруем
     def encrypt(self, key, text):
+        alf = 'abcdefghijklmnopqrstuvwxyz'
         result = []
         space = 0
         for index, ch in enumerate(text):
@@ -15,8 +14,10 @@ class Cipher:
                 space += 1
                 result.append(' ')
         return ''.join(result)
+
     # расшифровываем
     def decrypt(self, key, key_text):
+        alf = 'abcdefghijklmnopqrstuvwxyz'
         result = []
         space = 0
         for index, ch in enumerate(key_text):

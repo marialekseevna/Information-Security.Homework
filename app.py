@@ -1,4 +1,4 @@
-from main import Cipher
+from Cipher import Cipher
 
 cip = Cipher()
 
