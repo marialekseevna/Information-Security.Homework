@@ -1,4 +1,4 @@
-from Cipher import Cipher
+from laba1.Cipher import Cipher
 
 cip = Cipher()
 
