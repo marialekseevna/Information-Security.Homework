@@ -1,0 +1,15 @@
+**Data used**
+
+key: 915F4619BE
+
+block size : 32
+
+rounds: 12
+
+text: password123
+
+expected response for encrypt: b'(\xe52#V\xf8\x8d\x81\xb2\xb2\x13s'
+
+expected response for decrypt: password123
+
+
